@@ -1,2 +1,3 @@
 # movie_app
-Movie app using expo
+
+iOS / Android Movie Discovery App built with React Native.
