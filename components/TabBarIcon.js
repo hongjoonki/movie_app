@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Ionicons } from '@expo/vector-icons';
-import { ACTIVE_COLOR } from '../constants/Colors';
+import { ACTIVE_COLOR, INACTIVE_COLOR } from '../constants/Colors';
 
 const TabBarIcon = ({ name, focused }) =>
 <Ionicons
@@ -10,7 +10,7 @@ const TabBarIcon = ({ name, focused }) =>
     color={focused ? ACTIVE_COLOR : INACTIVE_COLOR}
 />
 
-TabBarIcon.PropTypes = {
+TabBarIcon.propTypes = {
     name: PropTypes.string.isRequired,
     focused: PropTypes.bool.isRequired
 }
