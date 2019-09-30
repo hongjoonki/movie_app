@@ -20,7 +20,7 @@ const MainNavigation = createStackNavigator(
     },
     {
         hearderMode: "screen",
-        headerBackTitleVisible: null
+        headerBackTitleVisible: false
     }
 );
 
